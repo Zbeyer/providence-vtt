@@ -2,34 +2,23 @@ Hooks.once('setup', () => {
     // Thank reddit: https://www.reddit.com/r/FoundryVTT/comments/iy1dv7/custom_damage/
     console.log('P5e | Initializing');
 
-// already standard damage types
-//CONFIG.DND5E.damageTypes['poison'] = 'P5EEXTRA.DamagePoison';
-//CONFIG.DND5E.damageTypes['fire'] = 'P5EEXTRA.DamageFire';
-//CONFIG.DND5E.damageTypes['psychic'] = 'P5EEXTRA.DamagePsychic';
-
+    // debug learning / logging
     console.log('zbeyer: CONFIG.DND5E.damageTypes: %o', CONFIG.DND5E.damageTypes);
     console.log('zbeyer: CONFIG.DND5E.attributes: %o', CONFIG.DND5E.attributes);
     console.log('zbeyer: CONFIG.DND5E: %o', CONFIG.DND5E);
+
+    // ZBEYER reading how to do
+    // const abl = this.data.data.abilities;
+    // let abl = this.data._source.data.abilities;
 
     CONFIG.DND5E.damageTypes['magnetic'] = 'Magnetic';
     CONFIG.DND5E.damageTypes['bacon'] = 'Bacon';
     CONFIG.DND5E.damageTypes['meat'] = 'Meat';
     CONFIG.DND5E.damageTypes['Bile'] = 'Bile';
-    // CONFIG.DND5E.damageTypes['dark'] = 'P5EEXTRA.DamageDark';
-    // CONFIG.DND5E.damageTypes['dragon'] = 'P5EEXTRA.DamageDragon';
-    // CONFIG.DND5E.damageTypes['electric'] = 'P5EEXTRA.DamageElectric';
-    // CONFIG.DND5E.damageTypes['fairy'] = 'P5EEXTRA.DamageFairy';
-    // CONFIG.DND5E.damageTypes['fighting'] = 'P5EEXTRA.DamageFighting';
-    // CONFIG.DND5E.damageTypes['flying'] = 'P5EEXTRA.DamageFlying';
-    // CONFIG.DND5E.damageTypes['ghost'] = 'P5EEXTRA.DamageGhost';
-    // CONFIG.DND5E.damageTypes['grass'] = 'P5EEXTRA.DamageGrass';
-    // CONFIG.DND5E.damageTypes['ground'] = 'P5EEXTRA.DamageGround';
-    // CONFIG.DND5E.damageTypes['ice'] = 'P5EEXTRA.DamageIce';
-    // CONFIG.DND5E.damageTypes['normal'] = 'P5EEXTRA.DamageNormal';
-    // CONFIG.DND5E.damageTypes['rock'] = 'P5EEXTRA.DamageRock';
-    // CONFIG.DND5E.damageTypes['steel'] = 'P5EEXTRA.DamageSteel';
-    // CONFIG.DND5E.damageTypes['water'] = 'P5EEXTRA.DamageWater';
-    //
+
+    CONFIG.DND5E.abilityAbbreviations['aur'] = 'aur';
+    CONFIG.DND5E.abilities['aur'] = 'Aura';
+
     // CONFIG.DND5E.hitDieTypes.push('d20');
     //
     // CONFIG.DND5E.currencies['pd'] = 'P5EEXTRA.CurrencyPD';
