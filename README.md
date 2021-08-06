@@ -3,6 +3,16 @@ foundryvtt homebrew extension for Providence Campaign Setting
 
 
 
+Manifest url:
+
+```
+https://raw.githubusercontent.com/Zbeyer/providence-vtt/master/module.json
+```
+
+
+
+
+
 Work in progress.
 Taking inspiration from: 
 
