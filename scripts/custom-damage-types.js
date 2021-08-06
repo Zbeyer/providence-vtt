@@ -4,7 +4,8 @@ Hooks.once('setup', () =>
 	let customDamageInserts = [
 		'Magnetic',
 		'Charge',
-		'Negative Chroma'
+		'Negative Chroma',
+		'Outerburn'
 	];
 
 	// Thank reddit: https://www.reddit.com/r/FoundryVTT/comments/iy1dv7/custom_damage/
