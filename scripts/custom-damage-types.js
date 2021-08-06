@@ -18,6 +18,7 @@ Hooks.once('setup', () =>
 	{
 		let key = damageName.replace(/[\. ,:-]+/g, "-").toLowerCase().trim();
 		CONFIG.DND5E.damageTypes[key] = damageName;
+		CONFIG.DND5E.damageResistanceTypes[key] = damageName;
 	});
 	// CONFIG.DND5E.damageTypes['bacon'] = 'Bacon';
 	// CONFIG.DND5E.damageTypes['meat'] = 'Meat';
