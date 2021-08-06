@@ -1,5 +1,5 @@
 Hooks.once('setup', () => {
-
+    // Thank reddit: https://www.reddit.com/r/FoundryVTT/comments/iy1dv7/custom_damage/
     console.log('P5e | Initializing');
 
 // already standard damage types
