@@ -13,9 +13,5 @@
   "download": "https://github.com/Zbeyer/providence-vtt/archive/refs/heads/master.zip",
   "url": "https://github.com/Zbeyer/providence-vtt/",
   "esmodules": [
-
-  ],
-  "scripts": [
-    "scripts/custom-damage-types.js"
   ]
 }
