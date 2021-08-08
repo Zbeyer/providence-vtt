@@ -18,3 +18,7 @@ bin-release/
 # information for Eclipse / Flash Builder.
 .idea/
 *.idea
+.idea/**.**
+.idea/workspace.xml
+.idea/workspace.xml
+*.xml
