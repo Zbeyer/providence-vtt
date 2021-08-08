@@ -1,10 +1,9 @@
 {
-  "name": "providence-vtt",
+  "name": "5e-providence-vtt",
   "systems": ["dnd5e"],
-  "socket": true,
-  "title": "Providence VTT Extensions for 5e",
+  "title": "0.1 5e-providence-vtt",
   "description": "A module to help us navigate the world of Providence.",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "minimumCoreVersion": "0.5.0",
   "author": "zbeyer",
   "manifest": "https://raw.githubusercontent.com/Zbeyer/providence-vtt/master/module.json",
@@ -13,5 +12,6 @@
   "download": "https://github.com/Zbeyer/providence-vtt/archive/refs/heads/master.zip",
   "url": "https://github.com/Zbeyer/providence-vtt/",
   "esmodules": [
+    "./src/init.js"
   ]
 }

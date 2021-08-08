@@ -30,6 +30,4 @@ let insertCustomConditions = function () {
     });
 }
 
-export {
-    insertCustomConditions
-}
+export default insertCustomConditions;

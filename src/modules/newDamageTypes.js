@@ -21,8 +21,6 @@ let insertCustomDamage = function () {
         CONFIG.DND5E.damageTypes[key] = val;
         CONFIG.DND5E.damageResistanceTypes[key] = val;
     });
-}
+};
 
-export {
-    insertCustomDamage
-}
+export default insertCustomDamage;

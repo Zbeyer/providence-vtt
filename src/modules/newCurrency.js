@@ -13,6 +13,4 @@ let insertCustomCurrency = function () {
     console.log('CONFIG.DND5E.currencies: %o', CONFIG.DND5E.currencies);
 };
 
-export {
-    insertCustomCurrency
-}
+export default insertCustomCurrency;

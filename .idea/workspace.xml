@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2c5f81b-a8ca-4f08-bd8d-8a3692be426e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/newConditions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/newCurrency.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/newDamageTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/providence-vtt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zhooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/module.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/custom-attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/newAttributes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/custom-damage-types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/module.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/newAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/newAttributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/newConditions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/newConditions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/newCurrency.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/newCurrency.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/newDamageTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/newDamageTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/providence-vtt.js" beforeDir="false" afterPath="$PROJECT_DIR$/providence-vtt.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -32,6 +35,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -44,6 +48,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\FoundryVTT\Data\modules\5e-providence-vtt\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1628284219944</updated>
       <workItem from="1628284221688" duration="9586000" />
+      <workItem from="1628453764662" duration="3218000" />
+      <workItem from="1628457189612" duration="2140000" />
     </task>
     <servers />
   </component>
@@ -69,5 +80,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
