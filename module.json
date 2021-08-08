@@ -13,5 +13,19 @@
   "url": "https://github.com/Zbeyer/providence-vtt/",
   "esmodules": [
     "./src/init.js"
+  ],
+  "packs": [
+    {
+      "name": "kfeats",
+      "label": "Providence Features (Kyle)",
+      "path": "/packs/kyle/feats.json",
+      "entity": "Item"
+    },
+    {
+      "name": "zfeats",
+      "label": "Providence Features (Zack)",
+      "path": "/packs/zack/feats.json",
+      "entity": "Item"
+    }
   ]
 }
