@@ -3,8 +3,16 @@ let insertCustomDamage = function () {
     let customData = [
         'Magnetic',
         'Charge',
-        'Negative Chroma',
-        'Outerburn'
+        'Aural',
+        'Mental',
+        'Maledictive',
+        'Afflictive',
+        'Void',
+        'Outerblaze',
+        'Astral',
+        'Hexa',
+        'Entropic',
+        'Demi'
     ];
 
     customData.forEach(function (val)
